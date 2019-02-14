@@ -1,0 +1,41 @@
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.content {
+    max-width: 600px;
+    margin: auto;
+}
+
+.intro {
+    line-height: 1.5em;
+    padding: 1em;
+    background-color: lightgray;
+    border-radius: 1em;
+}
+
+h2 {
+    font-family: 'Lily Script One';
+    font-size: 3em;
+    width: fit-content;
+    height: fit-content;
+    margin: 2em 2em 1em 2em;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1.3em;
+    border-radius: 1.3em;
+    padding: .5em;
+    border: none;
+    background-color: #ff9f9f
+}
+
+p.advice {
+    font-style: italic;
+    font-size: 1.3em;
+    text-align: center;
+    padding: 1.3em;
+    background-color: #777777;
+    border-radius: .5em;
+}
