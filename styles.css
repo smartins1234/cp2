@@ -1,16 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
 body {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #282E33;
+    background-color: #EFF2E2;
+    margin: 0;
 }
 
 .content {
     max-width: 600px;
-    margin: auto;
+    margin-left: 15%;
+    margin-bottom: 15%;
 }
 
 .intro {
     line-height: 1.5em;
     padding: 1em;
-    background-color: lightgray;
+    background-color: #D6D8C9;
     border-radius: 1em;
 }
 
@@ -28,7 +43,7 @@ button {
     border-radius: 1.3em;
     padding: .5em;
     border: none;
-    background-color: #ff9f9f
+    background-color: #D0B6A4
 }
 
 p.advice {
@@ -36,6 +51,25 @@ p.advice {
     font-size: 1.3em;
     text-align: center;
     padding: 1.3em;
-    background-color: #777777;
+    background-color: #F19D94;
     border-radius: .5em;
+}
+
+.footer a {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 1.3em;
+    color: inherit;
+    width: fit-content;
+    height: fit-content;
+}
+
+.footer {
+    background-color: #D6D8C9;
+    width: 100%;
+    height: fit-content;
+    bottom: 0;
+    position: fixed;
+    padding: 1em;
+    text-align: center;
 }
